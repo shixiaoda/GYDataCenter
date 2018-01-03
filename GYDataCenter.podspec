@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Zepo/GYDataCenter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Zeposhe' => 'zeposhe@163.com' }
-  s.source           = { :git => 'https://github.com/Zepo/GYDataCenter.git', :tag => s.version }
+  s.author           = { 'shixiaoda@qq.com' => 'shixiaoda@babybus.com' }
+  s.source           = { :git => 'https://github.com/shixiaoda/GYDataCenter.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
@@ -38,5 +38,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'FMDB'
+  s.dependency 'FMDB', '2.6.2'
 end
